@@ -1,0 +1,72 @@
+/* navbar */
+
+
+#navbar{
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+
+}
+#navbar1 ul{
+    text-align: center;
+    justify-content: center;
+}
+
+/* home */
+#home{
+    padding:0px 20px;
+    height: 280px;
+    font-size: 15px;
+
+}
+
+/* about */
+#about{
+    padding: 120px 3px 0px 3px;
+    overflow: hidden;
+}
+#about1{
+    
+    flex-direction: column;
+    justify-content: center;
+    margin: 10px;
+
+}
+#about1 p{
+    padding: 10px;
+    text-align: center;
+}
+
+#bg2{
+
+    width:auto;
+    height: auto;
+    padding: 10px;
+}
+
+/* contact */
+#contact{
+    padding: 10px;
+}
+#us{
+    display: flex;
+    flex-direction: column;
+    padding: 3px;
+}
+#us{
+    height: 300px;
+    font-size: 6px;
+}
+#us::before{
+    width: 100%;
+    padding: 0px;
+    margin: -12px;
+    height: inherit;
+    overflow: hidden;
+}  
+
+.form{
+    font-size: 15px;
+    padding: 3px;
+    height: 50px;
+}

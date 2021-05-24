@@ -1,0 +1,149 @@
+html {
+    scroll-behavior:smooth;
+  }
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Baloo 2', cursive;
+}
+
+/* navigation bar  */
+#navbar{
+    display: flex;
+    position:sticky;
+    top: 0;
+}
+#navbar::before{
+    content:" ";
+    z-index: -1;
+    position:absolute;
+    background-color: black;
+    opacity: 0.3;
+    height: 100%;
+    width: 100%;
+}
+
+#logo img{
+    height: 50px;
+    padding:0 30px ;
+}
+
+#navbar ul{
+    display: flex;
+    list-style: none;
+}
+
+#navbar li a{
+    display: block;
+    text-decoration: none;
+    color:black;
+    padding: 10px;
+    margin: 3px;
+    border-radius: 28px;
+}
+
+#navbar li a:hover{
+    background-color: white;
+    color:black;
+}
+
+/* home */
+
+#home{
+    color:white;
+    text-shadow: 1px 1px black;
+    padding:0px 200px;
+    flex-direction: column;
+    display:flex;
+    height: 400px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+#home::before{
+    content: " ";
+    height: 505px;
+    width: 100%;
+    position: absolute;
+    background: url('bg2.jpg') no-repeat center center/cover;
+    z-index: -1;
+    opacity: 0.88;
+}
+
+.para{
+    padding-bottom: 10px;
+}
+
+#btn{
+    border-radius: 5px;
+    padding: 5px;
+}
+
+/* about us */
+
+#about{
+    padding-top: 70px;
+}
+
+#about1{
+    border: 3px solid blue;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin: 30px;
+    background-color: rgb(220, 226, 226);
+}
+#about1 p{
+    padding: 30px;
+}
+
+#bg2{
+    width: 600px;
+    margin:auto ;
+    padding: 30px;
+}
+
+
+
+/* contact us */
+#us{
+    justify-content: space-evenly;
+    display: flex;
+}
+#us{
+    padding: 30px;
+    height: 123px;
+    font-size: 13px;
+    
+}
+#us::before{
+    content: " ";
+    height:200px;
+    width: 96%;
+    position: absolute;
+    background: url('contact.jpg') no-repeat center center/cover;
+    z-index: -1;
+    opacity: 0.88;
+    margin: 0px 30px;
+}
+
+.form{
+    margin: 30px;
+    font-size: 20px;
+    color: white;
+    text-shadow: 1px 1px black;
+    height: 144px;
+    width: -moz-available;
+    text-align: center;
+
+}
+
+
+/* /// */
+
+#h1-primary{
+    font-family: 'Bree Serif', serif;
+    justify-content: center;
+    text-align: center;
+}
